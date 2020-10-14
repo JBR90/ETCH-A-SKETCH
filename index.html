@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/70ea06a304.js" crossorigin="anonymous"></script>
+    
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "styles.css" />
+</head>
+<body>
+
+    <div id="container">
+        <h1 id="title">ETCH-A-SKETCH</h1>
+        <div id = "grid-container"></div>
+        
+        <div id="options">
+            <button id = "clear-btn">Clear Grid</button>
+            
+            <div id="grid-size">
+               
+                <label for="grid-size">Rows</label>
+                <input type="text" id="input-rows" name="grid-size" required
+                       minlength="4" maxlength="8" size="5">
+
+                <label for="grid-size">Cols</label>
+                <input type="text" id="input-cols" name="grid-size" required
+                       minlength="4" maxlength="8" size="5">
+                <button id="grid-input">Change Grid Size</button>
+    
+            </div>
+            <div id="colour-picker">
+                <label for="head">Colour</label>
+                <input type="color" id="colour" name="head"
+                       value="#e66465">
+                
+            </div>
+
+
+            </div>
+         
+
+
+        
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
